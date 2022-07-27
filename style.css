@@ -12,7 +12,9 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+.row{
+    max-width: 100%;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -743,10 +745,7 @@ h5{
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
-.row{
-    margin-right: 0;
-    margin-left: 0;
-}
+
 h1 {
     color: #FFFFFF!important;
 }
@@ -1064,4 +1063,5 @@ footer li{
     .bloc-mob-center-text {
         text-align: center;
     }
+
 }
